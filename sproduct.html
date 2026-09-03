@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Product - Dev Fashion</title>
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Elsie:wght@400;900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+
+    <nav class="navbar">
+      <div class="logo">
+        <img src="8edfddc2-84c4-4931-b039-c68adbf4a951.png" />
+      </div>
+
+      <div class="mobile-icons">
+        <span>🛍</span>
+        <span id="menu-btn">☰</span>
+      </div>
+
+      <div class="nav-item">
+        <span>
+          <a href="index.html">Home</a>
+        </span>
+
+        <span>
+          <a href="shop.html">Shop</a>
+        </span>
+
+        <span>
+          <a href="blog.html">Blog</a>
+        </span>
+
+        <span>
+          <a href="about.html">About</a>
+        </span>
+
+        <span>
+          <a href="contact.html">Contact</a>
+        </span>
+
+        <span>
+          <a href="cart.html">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </a>
+        </span>
+      </div>
+    </nav>
+
+    <!-- SINGLE PRODUCT -->
+
+    <section id="prodetails" class="section-p1">
+      <!-- LEFT SIDE -->
+
+      <div class="single-pro-image">
+        <img src="image/sweater.jpg" width="100%" id="MainImg" alt="Product" />
+
+        <div class="small-img-group">
+          <div class="small-img-col">
+            <img
+              src="image/sweater.jpg"
+              width="100%"
+              class="small-img"
+              alt=""
+            />
+          </div>
+
+          <div class="small-img-col">
+            <img src="image/white.webp" width="100%" class="small-img" alt="" />
+          </div>
+
+          <div class="small-img-col">
+            <img
+              src="image/wintercoll.avif"
+              width="100%"
+              class="small-img"
+              alt=""
+            />
+          </div>
+
+          <div class="small-img-col">
+            <img src="image/shirt.avif" width="100%" class="small-img" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT SIDE -->
+
+      <div class="single-pro-details">
+        <h6>Home / Product</h6>
+
+        <h4>Women's Fashion Sweater</h4>
+
+        <h2>$78</h2>
+
+        <select>
+          <option>Select Size</option>
+
+          <option>Small</option>
+
+          <option>Medium</option>
+
+          <option>Large</option>
+
+          <option>XL</option>
+        </select>
+
+        <input type="number" id="quantity" name="quantity" value="1" min="1" />
+
+        <button class="normal" id="addToCart">Add To Cart</button>
+
+        <h4>Product Details</h4>
+
+        <span>
+          Pattern Drop Shoulder Pointelle Knit Sweater. This stylish sweater is
+          comfortable and perfect for everyday wear during winter.
+        </span>
+      </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+
+    <section id="newsletter">
+      <div class="newstext">
+        <h4>Sign Up for Newsletters</h4>
+
+        <p>
+          Get E-Mail update about our latest shop and
+          <span>special offers</span>
+        </p>
+      </div>
+
+      <div class="form">
+        <input type="text" placeholder="Your email address" />
+
+        <button>Sign UP</button>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+      <div class="footer-col">
+        <h3>Dev Fashion</h3>
+
+        <p>Contact</p>
+
+        <p>
+          <strong>Address:</strong>
+          Pune, Maharashtra
+        </p>
+
+        <p>
+          <strong>Phone:</strong>
+          +91 98765 43210
+        </p>
+
+        <p>
+          <strong>Email:</strong>
+          devfashion@gmail.com
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h3>About</h3>
+
+        <a href="#">About Us</a>
+
+        <a href="#">Delivery Information</a>
+
+        <a href="#">Privacy Policy</a>
+
+        <a href="#">Terms & Conditions</a>
+
+        <a href="#">Contact Us</a>
+      </div>
+
+      <div class="footer-col">
+        <h3>My Account</h3>
+
+        <a href="#">Sign In</a>
+
+        <a href="#">View Cart</a>
+
+        <a href="#">My Wishlist</a>
+
+        <a href="#">Track My Order</a>
+
+        <a href="#">Help</a>
+      </div>
+
+      <div class="footer-col">
+        <h3>Follow Us</h3>
+
+        <a href="#">Instagram</a>
+
+        <a href="#">Facebook</a>
+
+        <a href="#">Twitter</a>
+
+        <a href="#">YouTube</a>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Dev Fashion. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <!-- EXTERNAL JAVASCRIPT -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
