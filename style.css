@@ -121,10 +121,12 @@ button.normal {
   margin: 40px 0;
 }
 #feature {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    padding: 30px;
+    box-sizing: border-box;
 }
 #feature .fe-box {
   width: 268px;
@@ -1004,13 +1006,12 @@ button.normal {
   .section-p1 {
     padding: 30px 20px;
   }
-
   #feature {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-    padding: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
     box-sizing: border-box;
 }
 
@@ -1225,4 +1226,11 @@ button.normal {
   #cart table {
     min-width: 650px;
   }
+}
+@media (max-width: 500px) {
+    #feature {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 15px;
+    }
 }
