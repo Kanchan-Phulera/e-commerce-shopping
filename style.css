@@ -121,28 +121,28 @@ button.normal {
   margin: 40px 0;
 }
 #feature {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-    padding: 40px 80px;
-    box-sizing: border-box;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding: 40px 80px;
+  box-sizing: border-box;
 }
 #feature .fe-box {
-    width: 100%;
-    text-align: center;
-    padding: 25px 15px;
-    box-sizing: border-box;
-    box-shadow: 0 6px 18px rgba(154, 107, 79, 0.18);
-    border: 1px solid #e8d5c4;
-    background-color: #faf4ee;
-    transition: transform 0.3s ease;
-    border-radius: 38px;
-    margin-bottom: 0;
-    height: 29vh;
+  width: 100%;
+  text-align: center;
+  padding: 25px 15px;
+  box-sizing: border-box;
+  box-shadow: 0 6px 18px rgba(154, 107, 79, 0.18);
+  border: 1px solid #e8d5c4;
+  background-color: #faf4ee;
+  transition: transform 0.3s ease;
+  border-radius: 38px;
+  margin-bottom: 0;
+  height: 29vh;
 }
 .fe-box:hover {
-  transform: translateY(-5px)
+  transform: translateY(-5px);
 }
 .fe-box img {
   width: 100%;
@@ -158,18 +158,33 @@ button.normal {
 }
 #feature .fe-box:nth-child(1) h5 {
   background-color: lightblue;
+  text-align: center;
+  margin-left: 59px;
+  width: auto;
 }
 #feature .fe-box:nth-child(2) h5 {
   background-color: lightpink;
+  text-align: center;
+  margin-left: 59px;
+  width: auto;
 }
 #feature .fe-box:nth-child(3) h5 {
   background-color: lightgreen;
+  text-align: center;
+  margin-left: 59px;
+  width: auto;
 }
 #feature .fe-box:nth-child(4) h5 {
   background-color: lightyellow;
+  text-align: center;
+  margin-left: 59px;
+  width: auto;
 }
 #feature .fe-box:nth-child(5) h5 {
   background-color: lightcoral;
+  text-align: center;
+  margin-left: 59px;
+  width: auto;
 }
 
 #product1 {
@@ -1014,13 +1029,20 @@ button.normal {
     gap: 20px;
     padding: 20px;
     box-sizing: border-box;
-}
+  }
 
   #feature .fe-box {
     width: 100%;
-    max-width: 300px;
-    padding: 20px 4px;
+    text-align: center;
+    padding: 25px 15px;
     box-sizing: border-box;
+    box-shadow: 0 6px 18px rgba(154, 107, 79, 0.18);
+    border: 1px solid #e8d5c4;
+    background-color: #faf4ee;
+    transition: transform 0.3s ease;
+    border-radius: 38px;
+    margin-bottom: 0;
+    height: auto;
   }
 
   .fe-box img {
@@ -1229,9 +1251,9 @@ button.normal {
   }
 }
 @media (max-width: 500px) {
-    #feature {
-        grid-template-columns: 1fr;
-        gap: 20px;
-        padding: 15px;
-    }
+  #feature {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 15px;
+  }
 }
