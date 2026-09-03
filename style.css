@@ -139,6 +139,7 @@ button.normal {
   background-color: #faf4ee;
   border-radius: 38px;
   transition: transform 0.3s ease;
+  object-fit: contain;
 }
 
 .fe-box:hover {
