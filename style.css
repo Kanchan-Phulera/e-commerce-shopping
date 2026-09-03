@@ -135,6 +135,8 @@ button.normal {
   background-color: #faf4ee;
   transition: transform 0.3s ease;
   border-radius: 38px;
+  margin-bottom: 29px;
+  height: 29vh;
 }
 .fe-box:hover {
   transform: scale(1.1);
@@ -180,7 +182,8 @@ button.normal {
   cursor: pointer;
   box-shadow: 2px 2px 14px #9e8f8f;
   margin: 15px 0;
-  height: 680px;
+  margin-bottom: 29px;
+  height: 71vh;
   object-fit: contain;
   transition: 0.3s ease;
 }
@@ -333,10 +336,12 @@ button.normal {
 
 #sm-banner .banner-box:nth-child(1) {
   background-image: url("image/banner1f.png");
+  border-radius: 20px;
 }
 
 #sm-banner .banner-box:nth-child(2) {
   background-image: url("image/banner2.png");
+  border-radius: 20px;
 }
 
 #newsletter {
@@ -1010,7 +1015,7 @@ button.normal {
   #feature .fe-box {
     width: 100%;
     max-width: 300px;
-    padding: 20px 15px;
+    padding: 20px 4px;
     box-sizing: border-box;
   }
 
