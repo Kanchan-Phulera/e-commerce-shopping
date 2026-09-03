@@ -239,3 +239,10 @@ readMoreButtons.forEach(function (button) {
   });
 
 });
+
+/* shop */
+const shopNow = document.getElementById("shopNow");
+
+shopNow.addEventListener("click", function () {
+    window.location.href = "shop.html";
+});
