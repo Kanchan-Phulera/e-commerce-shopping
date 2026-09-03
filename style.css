@@ -146,7 +146,7 @@ button.normal {
 }
 
 .fe-box:hover {
-  transform: translateY(-5px); /* Cleaner hover than scale(1.1), which also clips */
+  transform:scale(1.1); /* Cleaner hover than scale(1.1), which also clips */
 }
 
 .fe-box img {
