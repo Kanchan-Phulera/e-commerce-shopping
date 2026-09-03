@@ -121,25 +121,28 @@ button.normal {
   margin: 40px 0;
 }
 /* 2. Switch #feature to an auto-fitting grid */
+
 #feature {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 25px;
-  justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center the cards cleanly */
+  flex-wrap: wrap;         /* Allows cards to wrap into rows */
+  gap: 25px;               /* Handles spacing without edge overflow */
 }
 
-/* 3. Make the cards fluid and remove fixed viewport heights */
+/* Updated Flex items */
 #feature .fe-box {
-  width: 100%;              /* Let the grid column determine the width */
-  height: auto;             /* Avoid fixed '29vh' which causes text overflow */
+  flex: 0 1 240px;         /* Can shrink, won't exceed width, base width 240px */
+  max-width: 100%;
   text-align: center;
   padding: 25px 15px;
   box-shadow: 0 6px 18px rgba(154, 107, 79, 0.18);
   border: 1px solid #e8d5c4;
   background-color: #faf4ee;
-  border-radius: 38px;
   transition: transform 0.3s ease;
-  object-fit: contain;
+  border-radius: 38px;
+  height: auto;            /* Changed from 29vh so content doesn't spill out */
+  margin-bottom: 0;        /* gap property handles this now */
 }
 
 .fe-box:hover {
