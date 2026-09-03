@@ -132,17 +132,16 @@ button.normal {
 
 /* Updated Flex items */
 #feature .fe-box {
-  flex: 0 1 240px;         /* Can shrink, won't exceed width, base width 240px */
+  flex-wrap: wrap;
   max-width: 100%;
   text-align: center;
-  padding: 25px 15px;
+  padding:10px 10px;
   box-shadow: 0 6px 18px rgba(154, 107, 79, 0.18);
   border: 1px solid #e8d5c4;
   background-color: #faf4ee;
   transition: transform 0.3s ease;
   border-radius: 38px;
-  height: auto;            /* Changed from 29vh so content doesn't spill out */
-  margin-bottom: 0;        /* gap property handles this now */
+  height:30vh;
 }
 
 .fe-box:hover {
