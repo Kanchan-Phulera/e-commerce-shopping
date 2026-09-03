@@ -4,6 +4,125 @@ body {
   width: 100%;
   overflow-x: hidden;
 }
+
+.login-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginpage {
+    background-color: white;
+    width: 320px;
+    padding: 25px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.login-form h2 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #29476b;
+}
+
+.user-icon {
+    width: 55px;
+    height: 55px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    background-color: #e8ebef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 27px;
+}
+
+.login-form input {
+    border: 1px solid #cbd2dc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+.login-form input:focus {
+    border-color: #29476b;
+}
+
+.same {
+    margin: 5px;
+    padding: 12px;
+}
+
+.forgot {
+    text-align: right;
+    margin: 7px;
+    font-size: 14px;
+    color: #64748b;
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-button {
+    background-color: #111827;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #29476b;
+}
+
+.buttons p {
+    font-size: 14px;
+    color: #777;
+    margin: 10px;
+}
+
+.social {
+    width: calc(100% - 10px);
+    background-color: white;
+    border: 1px solid #cbd2dc;
+    border-radius: 5px;
+    color: #344054;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+}
+
+.social:hover {
+    background-color: #f5f6f8;
+}
+
+.signup {
+    text-align: center;
+}
+
+.signup span {
+    text-decoration: underline;
+    cursor: pointer;
+}
 button.normal {
   font-size: 14px;
   font-weight: 600;

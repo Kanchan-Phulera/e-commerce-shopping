@@ -1,3 +1,24 @@
+/* login page */
+const loginForm = document.querySelector(".login-form");
+const loginContainer = document.querySelector(".login-container");
+const homePage = document.querySelector(".homepage");
+
+if (localStorage.getItem("isLoggedIn") === "true") {
+  loginContainer.style.display = "none";
+  homePage.style.display = "block";
+}
+
+loginForm.addEventListener("submit", (event) => {
+  event.preventDefault();
+
+  localStorage.setItem("isLoggedIn", "true");
+
+  loginContainer.style.display = "none";
+  homePage.style.display = "block";
+});
+
+
+
 // MOBILE MENU
 
 const menuBtn = document.getElementById("menu-btn");
