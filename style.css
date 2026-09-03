@@ -1006,11 +1006,13 @@ button.normal {
   }
 
   #feature {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-  }
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 30px;
+    box-sizing: border-box;
+}
 
   #feature .fe-box {
     width: 100%;
