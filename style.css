@@ -129,16 +129,17 @@ button.normal {
     box-sizing: border-box;
 }
 #feature .fe-box {
-  width: 268px;
-  text-align: center;
-  padding: 25px 15px;
-  box-shadow: 0 6px 18px rgba(154, 107, 79, 0.18);
-  border: 1px solid #e8d5c4;
-  background-color: #faf4ee;
-  transition: transform 0.3s ease;
-  border-radius: 38px;
-  margin-bottom: 29px;
-  height: 29vh;
+    width: 100%;
+    text-align: center;
+    padding: 25px 15px;
+    box-sizing: border-box;
+    box-shadow: 0 6px 18px rgba(154, 107, 79, 0.18);
+    border: 1px solid #e8d5c4;
+    background-color: #faf4ee;
+    transition: transform 0.3s ease;
+    border-radius: 38px;
+    margin-bottom: 0;
+    height: 29vh;
 }
 .fe-box:hover {
   transform: scale(1.1);
