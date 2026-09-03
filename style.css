@@ -123,9 +123,9 @@ button.normal {
 #feature {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
-    padding: 30px;
+    padding: 40px 80px;
     box-sizing: border-box;
 }
 #feature .fe-box {
@@ -142,7 +142,7 @@ button.normal {
     height: 29vh;
 }
 .fe-box:hover {
-  transform: scale(1.1);
+  transform: translateY(-5px)
 }
 .fe-box img {
   width: 100%;
